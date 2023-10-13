@@ -11,6 +11,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.carrierlock.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.carrierlock.xml
 endif
 
+PRODUCT_COPY_FILES += \
+    device/google/gs201/system_ext-permissions-stock.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/system_ext-permissions-stock.xml
+
 # Android Verified Boot
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
